@@ -82,8 +82,7 @@
 //     );
 //   }
 // }
-import 'package:ai_chatbot_ui/screens/generate_picture_page.dart';
-import 'package:ai_chatbot_ui/screens/speack_to_ai_screen.dart';
+
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import '../widgets/premium_card.dart';
@@ -114,11 +113,8 @@ class HomeScreen extends StatelessWidget {
                       duration: Duration(seconds: 2),
                       child: FeatureButton(
                         icon: Icons.edit,
-                        label: "Generate ideas and write articles",
-                        onTap: () =>
-                            Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => SpeakToAIPage(),
-                        )),
+                        label: "deas and write articles",
+                        onTap: () {},
                       ),
                     ),
                   ),
@@ -129,10 +125,7 @@ class HomeScreen extends StatelessWidget {
                       child: FeatureButton(
                         icon: Icons.image,
                         label: 'Generate\npictures & art',
-                        onTap: () =>
-                            Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => GeneratePicturesPage(),
-                        )),
+                        onTap: () {},
                       ),
                     ),
                   ),

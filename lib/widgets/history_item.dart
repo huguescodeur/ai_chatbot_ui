@@ -1,4 +1,4 @@
-import 'package:ai_chatbot_ui/screens/chat_response_screen.dart';
+import 'package:ai_chatbot_ui/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 
 class HistoryItem extends StatelessWidget {
@@ -13,7 +13,7 @@ class HistoryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => ChatResponseScreen(),
+        builder: (context) => ChatScreen(),
       )),
       child: Container(
         padding: const EdgeInsets.all(16),

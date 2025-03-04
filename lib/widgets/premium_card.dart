@@ -100,7 +100,7 @@ class PremiumCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 FadeInDown(
-                  delay: Duration(seconds: 2),
+                  delay: Duration(seconds: 1),
                   child: Text(
                     'Premium Plan',
                     style: TextStyle(
@@ -111,7 +111,7 @@ class PremiumCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 8),
                 FadeInLeft(
-                  delay: Duration(seconds: 2),
+                  delay: Duration(seconds: 1),
                   child: Text(
                     'Harness the full power of AI with a Premium Plan',
                     style: TextStyle(fontSize: 14, color: Colors.black),
@@ -119,7 +119,7 @@ class PremiumCard extends StatelessWidget {
                 ),
                 const Spacer(),
                 BounceInUp(
-                  delay: Duration(seconds: 2),
+                  delay: Duration(seconds: 1),
                   child: SizedBox(
                     width: 145,
                     child: ElevatedButton(
@@ -151,7 +151,7 @@ class PremiumCard extends StatelessWidget {
           // Animation for the Image
           SlideInRight(
             // duration: ,
-            delay: Duration(seconds: 2),
+            delay: Duration(milliseconds: 500),
             child: Container(
               height: double.infinity,
               child: Image.asset(
